@@ -21,7 +21,7 @@ hpa:
   enabled: false
 
 ingress:
-  enabled: false
+  enabled: true
   hosts:
     - www.tylerpitcher.com
     - tylerpitcher.com
