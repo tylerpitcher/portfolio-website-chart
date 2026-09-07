@@ -6,5 +6,5 @@ version: 1.0.0
 
 dependencies:
   - name: base-helm-chart
-    version: 0.10.0
+    version: 0.11.0
     repository: "https://tylerpitcher.github.io/base-helm-chart/"
