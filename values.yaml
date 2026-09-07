@@ -3,28 +3,7 @@ image:
   tag: 1.1.0
 
 deployment:
-  replicas: 1
   port: 80
-  resources:
-    requests:
-      cpu: 100m
-      memory: 128Mi
-    limits:
-      cpu: 200m
-      memory: 256Mi
-
-env: []
-
-volumes: []
-
-hpa:
-  enabled: false
 
 ingress:
   enabled: true
-  hosts:
-    - www.tylerpitcher.com
-    - tylerpitcher.com
-  path: /
-  tlsSecretName: tylerpitcher-tls
-  httpsRedirectMiddleware: https-redirect
