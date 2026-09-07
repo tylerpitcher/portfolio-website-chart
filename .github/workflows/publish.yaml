@@ -1,0 +1,12 @@
+name: Publish Helm Chart
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  publish:
+    uses: tylerpitcher/github-actions/.github/workflows/publish-helm-chart.yaml@main
+    permissions:
+      contents: write
